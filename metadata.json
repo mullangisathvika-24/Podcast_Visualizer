@@ -1,0 +1,6 @@
+{
+  "name": "Podcast Visualizer",
+  "description": "A clean, modern responsive React/Vite showcase for podcast visuals, article highlights, poster navigation, and external media actions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
