@@ -370,8 +370,8 @@ export default function App() {
                   <div className="absolute inset-0 bg-neutral-950/20 group-hover:bg-neutral-950/35 transition-colors duration-300 pointer-events-none z-1" />
                 </div>
 
-                <div className="flex flex-wrap items-start justify-evenly gap-3 sm:gap-4 relative z-10 mt-2">
-                  <div className="flex min-w-[72px] flex-col items-center gap-2 text-center">
+                <div className="flex flex-wrap items-start justify-center gap-2.5 sm:gap-4 relative z-10 mt-2 w-full">
+                  <div className="flex min-w-[56px] sm:min-w-[72px] flex-col items-center gap-2 text-center">
                     <a
                       href={YOUTUBE_URL}
                       target="_blank"
@@ -389,7 +389,7 @@ export default function App() {
                     <span className="text-[10px] font-semibold tracking-wide text-neutral-500 dark:text-neutral-400">YouTube</span>
                   </div>
 
-                  <div className="flex min-w-[72px] flex-col items-center gap-2 text-center">
+                  <div className="flex min-w-[56px] sm:min-w-[72px] flex-col items-center gap-2 text-center">
                     <a
                       href={SPOTIFY_URL}
                       target="_blank"
@@ -407,7 +407,7 @@ export default function App() {
                     <span className="text-[10px] font-semibold tracking-wide text-neutral-500 dark:text-neutral-400">Spotify</span>
                   </div>
 
-                  <div className="flex min-w-[72px] flex-col items-center gap-2 text-center">
+                  <div className="flex min-w-[56px] sm:min-w-[72px] flex-col items-center gap-2 text-center">
                     <button
                       type="button"
                       onClick={handleVideoShare}
@@ -425,7 +425,7 @@ export default function App() {
                     <span className="text-[10px] font-semibold tracking-wide text-neutral-500 dark:text-neutral-400">Share</span>
                   </div>
 
-                  <div className="flex min-w-[72px] flex-col items-center gap-2 text-center">
+                  <div className="flex min-w-[56px] sm:min-w-[72px] flex-col items-center gap-2 text-center">
                     <button
                       type="button"
                       onClick={handleVideoDownload}
